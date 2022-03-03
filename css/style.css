@@ -11,6 +11,9 @@ body {
 	font-family: "Montserrat", sans-serif;
 	font-family: "PT Serif", serif;
 }
+p {
+	display: inline-block;
+}
 
 .container {
 	width: 100%;
@@ -32,6 +35,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding-top: 60px;
 }
 .logo__img {
 }
@@ -49,27 +53,78 @@ body {
 	margin-right: 15px;
 	text-transform: uppercase;
 }
+
 .navbar-item > a {
 	text-decoration: none;
 	color: #fff;
+	padding: 12px 15px;
+}
+.navbar-item > a:hover {
+	border-radius: 5px;
+	background-color: rgb(19, 14, 39);
 }
 .general-box {
+	padding-left: 25px;
 }
 .general__title {
+	font-size: 90px;
+	font-family: "Montserrat";
+	color: rgb(19, 14, 39);
+	font-weight: bold;
+	line-height: 80px;
+	text-transform: uppercase;
+	margin-top: 167px;
+	padding-right: 238px;
 }
 .general__text {
+	font-size: 20px;
+	font-family: "PTSerif";
+	color: rgb(255, 255, 255);
+	line-height: 28px;
+	padding-right: 528px;
 }
+.white {
+	color: #fff;
+}
+
 .our-services {
+
 }
 .ourservices__title {
+	font-size: 50px;
+	font-family: "Montserrat";
+	color: rgb(19, 14, 39);
+	font-weight: bold;
+	line-height: 80px;
+	margin-top: 45px;
+	margin-bottom: 100px;
+}
+.red {
+	color: rgb(198, 35, 20);
 }
 .ourservices-cards {
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
 .outservice-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
+
 .card__img {
+	margin-bottom: 45px;
 }
-.card__text {
+.card__text{
+	font-size: 20px;
+	font-family: "PTSerif";
+	color: rgb(22, 22, 22);
+	line-height: 28px;
+	text-align: center;
+	max-width: 175px;
+	margin-bottom: 68px;
 }
 .ourstory {
 }
